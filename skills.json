@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+    },
+    {
+        "name": "C",
+        "icon": "https://img.icons8.com/?size=100&id=40670&format=png&color=000000"
+    },
+    {
+        "name": "C++",
+        "icon": "https://img.icons8.com/?size=100&id=40669&format=png&color=000000"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/?size=100&id=wpZmKzk11AzJ&format=png&color=000000"
+    },
+    {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+    },
+    {
+        "name": "CSS",
+        "icon": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+    },
+    {
+        "name": "React",
+        "icon": "https://img.icons8.com/?size=100&id=25Sjy8fKExYA&format=png&color=000000"
+    },
+    {
+        "name": "Flutter",
+        "icon": "https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000"
+    },
+    {
+        "name": "IOS",
+        "icon": "https://img.icons8.com/?size=100&id=79089&format=png&color=000000"
+    },
+    {
+        "name": "Android",
+        "icon": "https://img.icons8.com/?size=100&id=17836&format=png&color=000000"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
+    },
+    {
+        "name": "Google Cloud Platform",
+        "icon": "https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
+    },
+    {
+        "name": "Azure",
+        "icon": "https://img.icons8.com/?size=100&id=81727&format=png&color=000000"
+    },
+    {
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
+    },
+    {
+        "name": "Google Firebase",
+        "icon": "https://img.icons8.com/?size=100&id=87330&format=png&color=000000"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/?size=100&id=tBBf3P8HL0vR&format=png&color=000000"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/?size=100&id=9nLaR5KFGjN0&format=png&color=000000"
+    },
+    {
+        "name": "Elasticsearch",
+        "icon": "https://img.icons8.com/?size=100&id=aGBLcugRkYpT&format=png&color=000000"
+    },
+    {
+        "name": "Redis",
+        "icon": "https://img.icons8.com/?size=100&id=wIbWQHJLwHxp&format=png&color=000000"
+    },
+    {
+        "name": "Spring Boot",
+        "icon": "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+    },
+    {
+        "name": "AngularJS",
+        "icon": "https://img.icons8.com/?size=100&id=71257&format=png&color=000000"
+    },
+    {
+        "name": "Flask",
+        "icon": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000"
+    },
+    {
+        "name": "Git",
+        "icon": "https://img.icons8.com/?size=100&id=xBKl2pdJg5kk&format=png&color=000000"
+    },
+    {
+        "name": "Kibana",
+        "icon": "https://img.icons8.com/?size=100&id=viVPreeQBfSH&format=png&color=000000"
+    },
+    {
+        "name": "PyTorch",
+        "icon": "https://img.icons8.com/?size=100&id=jH4BpkMnRrU5&format=png&color=000000"
+    },
+    {
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/?size=100&id=n3QRpDA7KZ7P&format=png&color=000000"
+    }
+]
