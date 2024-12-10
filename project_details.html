@@ -1,0 +1,130 @@
+<!-- project_details.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <!-- Link to the new CSS file -->
+    <link rel="stylesheet" href="project.css"> 
+</head>
+<body>
+
+    <section class="project-details">
+        <h1>Project Details</h1>
+
+        <!-- Project Tiles -->
+        <div class="tiles-container">
+
+            <!-- Tile for Project 1 -->
+            <div class="project-tile">
+                <h2>Suicidal Ideation Detection</h2>
+                <p> The Suicidal Ideation Detection WebApp is an AI-driven application designed to identify and classify tweets that indicate suicidal ideation. This project leverages advanced Natural Language Processing (NLP) techniques and transformer-based deep learning models, such as ColBERT, to achieve high accuracy in detecting mental health-related content.</p>
+                <p> For project phase 1, a transformer-based deep learning model called ColBERT was used for classifying suicidal tweets, achieving a 94% accuracy rate against benchmark models such as SVM and GloVe.</p>
+                <p>• Leveraged CUDA to accelerate deep learning training processes.</p>
+                <p>• Phase 2 extended the application's capabilities, integrating advanced DL models such as XLNet, RoBERTa, and VGG-19 for text and image classification into a web application with Flask as the chosen framework.</p>
+                <p>• The web application was built using the Flask framework and integrates real-time data analysis through REST APIs to fetch and process live tweets.
+                o ensure scalability and deployment efficiency, the app was containerized using Docker and optimized for performance.</p>
+                <!-- Technologies used (buttons) -->
+                <div class="tech-buttons">
+                    <span class="tech-btn">PyTorch</span>
+                    <span class="tech-btn">CUDA</span>
+                    <span class="tech-btn">REST API</span>
+                    <span class="tech-btn">Docker</span>
+                </div>
+            </div>
+
+            <!-- Add more project tiles as needed -->
+            <div class="project-tile">
+                <h2>Training a Continuous Bag of Words (CBoW) Model</h2>
+                <p>This project focuses on training a Continuous Bag of Words (CBoW) model to generate word embeddings, following the method introduced by Mikolov et al. (2013).</p>
+                <p>The implementation involved defining a vocabulary, tokenizing the text, and converting words into one-hot encoded vectors. The model architecture includes a projection layer that maps context words into dense embeddings and a classifier layer that predicts the target word from these embeddings. Training was conducted using Cross Entropy Loss, with various learning rates tested to optimize performance. The generated embeddings were evaluated on tasks like word similarity and analogy resolution, showcasing the model's ability to capture semantic relationships.</p>
+                <div class="tech-buttons">
+                    <span class="tech-btn">PyTorch</span>
+                    <span class="tech-btn">Python</span>
+                    <span class="tech-btn">CBOW</span>
+                </div>
+            </div>
+            <div class="project-tile">
+                <h2>SmartDoorLock System</h2>
+                <p>The Smart Door Lock System is a two-level security solution that integrates fingerprint and facial recognition to provide secure, automated door access. Built using a Raspberry Pi, this system ensures that only authorized users can unlock the door by successfully matching both fingerprint and facial inputs. When both inputs match with a pre-registered user, the door unlocks and a green LED lights up as a visual confirmation. If either input is unauthorized, the door remains locked, and a red LED alerts to the failed authentication attempt. This system is ideal for enhancing security in homes, workplaces, bank lockers, and other sensitive areas.</p>
+                <h3> Hardware Components</h3>
+                <p>he system employs various hardware components including a Raspberry Pi, fingerprint scanner, Pi camera, relay module, and LEDs. For software, it utilizes Python and OpenCV for real-time face detection, leveraging the Haar classifier to detect faces. The system is designed to handle multiple cases: unauthorized fingerprints trigger an alert and keep the door locked, authorized fingerprints paired with unauthorized face recognition also result in denial of access, while only the correct combination of both inputs results in unlocking the door. This comprehensive security solution demonstrates the integration of hardware and software to provide a robust, user-friendly door locking mechanism.</p>
+                <div class="tech-buttons">
+                    <span class="tech-btn">IOT</span>
+                    <span class="tech-btn">Raspberry Pi</span>
+                    <span class="tech-btn">Python</span>
+                    <span class="tech-btn">OpenCV</span>
+                </div>
+            </div>
+            <div class="project-tile">
+                <h2>Placement Prep Mobile App</h2>
+                <p>PlacementPrep is an interactive Flutter mobile application designed to assist students in navigating the job placement process with ease. Integrated with Firebase for real-time updates, the app provides a comprehensive platform where students can explore job offers, prepare for interviews, and enhance their skills through a game-based learning environment. The application addresses common challenges faced by pre-final and final-year students, such as keeping track of company offers, staying prepared for interviews, and reducing the stress associated with job placements.</p>
+                <p>Additionally, the app features an interactive game-based learning environment developed using Dart and C#, allowing students to take quizzes tailored to their field of interest and track their progress. This not only helps in building their knowledge but also reduces the stress associated with the preparation process.</p>
+                <div class="tech-buttons">
+                    <span class="tech-btn">Flutter</span>
+                    <span class="tech-btn">Android Studio</span>
+                    <span class="tech-btn">Dart</span>
+                    <span class="tech-btn">C#</span>
+                    <span class="tech-btn">Android</span>
+                    <span class="tech-btn">IOS</span>
+                </div>
+            </div>
+            <div class="project-tile">
+                <h2>Banking Web Application for Online Transactions</h2>
+                <p>This project involved the design and development of a secure banking web application aimed at facilitating online transactions and deposits. Built using React for a dynamic and responsive user interface, the application leverages Firebase for real-time data storage and management. The system was designed to allow users to perform essential banking functions such as transferring funds, making deposits, and viewing transaction history with ease.</p>
+                <p>To ensure seamless data exchange and secure communication, RESTful APIs were implemented, allowing efficient interaction between the frontend and backend services. Additionally, the application integrated Firebase Authentication to secure user access, providing mechanisms for secure login and verification processes. The use of Firebase Auth not only ensured data integrity and user privacy but also simplified the implementation of authentication workflows, resulting in a robust and user-friendly banking experience.</p>
+                <div class="tech-buttons">
+                    <span class="tech-btn">ReactJS</span>
+                    <span class="tech-btn">HTML</span>
+                    <span class="tech-btn">Firebase</span>
+                    <span class="tech-btn">Database management systems</span>
+                    <span class="tech-btn">Full stack development</span>
+                </div>
+            </div>
+            <div class="project-tile">
+                <h2>Language Modeling</h2>
+                <p>This project explored two key approaches to language modeling: a 4-gram model and an LSTM (Long Short-Term Memory) network. The 4-gram model was constructed using relative frequency counts and Laplace smoothing to predict the likelihood of a character based on the preceding three characters. This statistical approach provided a foundational method for sequence prediction, focusing on immediate context and avoiding zero probabilities for unseen n-grams. However, its simplicity limited its ability to capture longer-term dependencies in text.</p>
+                <p>To address these limitations, the project implemented an LSTM network. This recurrent neural network processed input sequences into character embeddings to predict the next character in a sequence, allowing it to capture more nuanced patterns and dependencies in the data. Configured with a character embedding dimension of 50 and an LSTM hidden dimension of 200, the model was trained over multiple epochs with various learning rates. The LSTM model outperformed the n-gram model in terms of perplexity, indicating a better ability to predict complex sequences. Despite the increased computational complexity, the LSTM's superior performance demonstrated the effectiveness of neural network-based models in understanding and predicting language patterns.</p>
+                <div class="tech-buttons">
+                    <span class="tech-btn">Tensorflow</span>
+                    <span class="tech-btn">Google Colab</span>
+                    <span class="tech-btn">Python</span>
+                    <span class="tech-btn">Numpy</span>
+                    <span class="tech-btn">LSTM</span>
+                    <span class="tech-btn">N - gram model</span>
+                </div>
+            </div>
+            <div class="project-tile">
+                <h2>Food Reviews App</h2>
+                <p>The Food Reviews App is a mobile application developed using Flutter and Cloud Firestore to help users find the best restaurants based on detailed reviews and cost information. Designed with user experience in mind, the app provides a platform where users can explore various dining options, check the average cost for dining, and read honest reviews posted by other customers. By aggregating this information in a user-friendly interface, the app empowers users to make informed dining choices, enhancing their overall experience.</p>
+                <p>To further enhance user interaction, a DialogFlow Chatbot was integrated into the app. This chatbot serves as a virtual assistant, efficiently addressing customer queries related to restaurant information, dining costs, and review submissions. The chatbot was designed to provide quick and accurate responses, ensuring that users can easily navigate through the app and get their questions answered in real-time. By combining the robust cross-platform capabilities of Flutter, the scalable data management of Cloud Firestore, and the intelligent conversational abilities of DialogFlow, the Food Reviews App delivers a seamless and interactive experience for users seeking the best dining options in their area.</p>
+                <div class="tech-buttons">
+                    <span class="tech-btn">Flutter</span>
+                    <span class="tech-btn">Dart</span>
+                    <span class="tech-btn">Cloud Firestore</span>
+                    <span class="tech-btn">DialogFlow</span>
+                    <span class="tech-btn">Full stack development</span>
+                    <span class="tech-btn">Android</span>
+
+                </div>
+            </div>
+            <div class="project-tile">
+                <h2>Banking Web Application for Online Transactions</h2>
+                <p>This project involved the design and development of a secure banking web application aimed at facilitating online transactions and deposits. Built using React for a dynamic and responsive user interface, the application leverages Firebase for real-time data storage and management. The system was designed to allow users to perform essential banking functions such as transferring funds, making deposits, and viewing transaction history with ease.</p>
+                <p>To ensure seamless data exchange and secure communication, RESTful APIs were implemented, allowing efficient interaction between the frontend and backend services. Additionally, the application integrated Firebase Authentication to secure user access, providing mechanisms for secure login and verification processes. The use of Firebase Auth not only ensured data integrity and user privacy but also simplified the implementation of authentication workflows, resulting in a robust and user-friendly banking experience.</p>
+                <div class="tech-buttons">
+                    <span class="tech-btn">ReactJS</span>
+                    <span class="tech-btn">HTML</span>
+                    <span class="tech-btn">Firebase</span>
+                    <span class="tech-btn">Database management systems</span>
+                    <span class="tech-btn">Full stack development</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

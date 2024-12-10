@@ -1,0 +1,103 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./assets/images/blue.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+/* Container for project tiles */
+.tiles-container {
+    display: block; /* Stacks the tiles vertically */
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.project-tile {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Work period button style */
+.work-period {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Project title and company name */
+.project-tile h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.project-tile h4 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* List styling */
+.project-tile ul {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.project-tile li {
+    margin-bottom: 10px;
+}
+
+
+
+/* Technology button styling */
+.tech-buttons {
+    margin-top: 10px;
+}
+
+.tech-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Customize colors for specific technologies */
+.tech-btn:nth-child(1) { background-color: #ff5722; } /* Example: PyTorch */
+.tech-btn:nth-child(2) { background-color: #4caf50; } /* Example: C++ */
+.tech-btn:nth-child(3) { background-color: #2196f3; } /* Example: Socket Programming */
+.tech-btn:nth-child(4) { background-color: #ff9800; } /* Example: REST API */
+
+/* Make tiles responsive */
+@media (max-width: 768px) {
+    .project-tile {
+        max-width: 100%;
+    }
+
+    .tech-btn {
+        font-size: 0.9rem;
+    }
+}
